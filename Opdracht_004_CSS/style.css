@@ -1,0 +1,39 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color:#2f1919;
+}
+
+h2 {
+    color:rgb(5, 131, 26);
+    text-decoration: underline;
+}
+
+.background-grey {
+    color: black;
+    /*border: 5px solid lightgrey;*/
+    background-color: lightgrey;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+.background-blue {
+    color: black;
+    /*border: 5px solid lightgrey;*/
+    background-color: rgb(149, 182, 224);
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+.italic {
+    font-style: italic;
+    font-size: 14px;
+}
+
+figure {
+    margin-left: 0px;
+}
