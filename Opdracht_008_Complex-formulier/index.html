@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+<head>
+    <title>Complex formulier</title>
+</head>
+
+<body>
+    <header>
+
+        <img class="logo" src="Logo_webdev.jpg" alt="Logo" height="100">
+        <h1>Opleiding Web Dev</h1>
+
+        
+    </header>
+
+    <main>
+
+        <h2>Compleet en complex formulier:</h2>
+
+        <br>
+
+        <p>
+        Op veler verzoek nu eindelijk een mogelijkheid om uw nieuwe recepten naar ons door te sturen. Zorg dat u het recept in een bestand heeft, bijvoorbeeld in Microsoft Word of Adobe PDF. Upload uw bestand via onderstaand formulier, en u hoort zo spoedig mogelijk van ons of uw recept wordt geplaatst op onze nieuwe website met recepten voor software developers.
+        </p>
+
+        <form name="recept-formulier" method="POST" data-netlify="true">
+            <p>
+                <label for="voornaam">Naam:</label><br>
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam"><br>
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+            </p>
+
+            <p>
+                <label for="telefoon">Telefoon:</label><br>
+                <input type="tel" id="telefoon" name="telefoon" pattern="[0-9]{10}"><br>
+            </p>
+
+            <p>
+                <label for="leeftijd">Leeftijd:</label><br>
+                <input type="number" id="leeftijd" name="leeftijd" min="1" max="120"><br>
+            </p>
+
+            <p>
+                <label for="geboortedatum">Geboortedatum:</label><br>
+                <input type="date" id="geboortedatum" name="geboortedatum"><br>
+            </p>
+
+            <p>
+                <label for="geslacht">Geslacht:</label><br>
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw">vrouw<br>
+                <input type="radio" id="man" name="geslacht" value="man">man<br>
+            </p>
+
+            <p>
+                <label for="favo-cuisine">Favoriete cuisine:</label><br>
+                <input type="checkbox" id="frans" name="cuisine" value="frans">Frans<br>
+                <input type="checkbox" id="italiaans" name="cuisine" value="italiaans">Italiaans<br>
+                <input type="checkbox" id="spaans" name="cuisine" value="spaans">Spaans<br>
+                <input type="checkbox" id="arabisch" name="cuisine" value="arabisch">Arabisch<br>
+            </p>
+
+            <p>
+                <label for="favo-short">Favoriete kleur short:</label><br>
+                <input type="color" id="favo-short" name="favo-short"><br>
+            </p>
+
+            <p>
+                <label for="biografie">Uw biografie:</label><br>
+                <textarea id="biografie" name="biografie" cols="60" rows="10"></textarea><br>
+            </p>
+
+            <p>
+                <label for="upload-recept">Upload uw recept:</label><br>
+                <input type="file" id="recept" name="recept"><br>
+            </p>
+
+            <p>
+                <label for="url-recept">Website van uw recept:</label><br>
+                <input type="url" id="url-recept" name="url-recept" placeholder="https://www.uw-recept.nl"><br>
+            </p>
+
+            <p>
+                <input type="reset">
+                <input type="submit">
+            </p>
+
+        </form>
+        
+
+
+    </main>
+
+
+    <br>
+
+    <footer>
+     
+    </footer>
+
+</body>
+
+</html>
