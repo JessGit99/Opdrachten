@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Fietsen in Drenthe</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img class="logo mobiel" src="./images/Logo-200px.png">
+                <img class="logo desktop" src="./images/Logo-350px.png">
+            </a>
+        </div>
+
+        <img class="header mobiel" src="./images/Header-6.png" alt="">
+        <img class="header desktop" src="./images/Header-desktop.png" alt="">
+
+        <h1 class="titel-tekst mobiel">"Alles over fietsen in Drenthe"</h1>
+        <h1 class="titel-tekst desktop">"Alles over fietsen in Drenthe"</h1>
+
+
+    </header>
+
+    <main>
+
+        <h2>Contact</h2>
+
+        <section class="intro">
+            <p>
+                Heeft u tips, vragen of opmerkingen over "Fietsen in Drenthe"? Neem dan contact met ons op via
+                onderstaand contactformulier.
+                <br>
+                <br>
+                Indien nodig, nemen we zo snel mogelijk contact met u op.
+            </p>
+        </section>
+
+        <div class="contact-formulier">
+            <form name="contact-formulier" method="POST" data-netlify="true">
+
+                <label for="voornaam">Voornaam:</label><br>
+                <input type="text" id="voornaam" name="voornaam"><br>
+
+                <label for="achternaam">Achternaam:</label><br>
+                <input type="text" id="achternaam" name="achternaam"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="bericht">Uw bericht:</label><br>
+                <textarea id="bericht" name="bericht" cols="60" rows="10"></textarea><br>
+
+                <label for="upload-bestand">Upload uw bestand (fietsroute, foto o.i.d.):</label><br>
+                <input type="file" id="bestand" name="bestand"><br>
+                <br>
+
+                <input type="submit">
+            </form>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>
+            Copyright: 2021 / Springveer-IT
+        </p>
+    </footer>
+
+</body>
+
+</html>
