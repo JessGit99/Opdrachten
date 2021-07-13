@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Kleuren Toggle</title>
+</head>
+
+<body>
+
+<h1>Eindopdracht Winc - Web Development</h1>
+
+<!-- Tekstmenu met uitleg van de sneltoetsen -->
+<ul class="menu-sneltoetsen">Sneltoetsen:
+    <li>1 = wit</li>
+    <li>2 = groen</li>
+    <li>3 = geel</li>
+    <li>4 = blauw</li>
+    <li>5 = rood</li>
+    <li>0 = reset</li>
+</ul>
+
+<!-- Menu - basisopdracht -->
+    
+    <div class="btn-toggle" onclick="toggleMenu()"></div>
+    
+    <ul id="menu" class="menu-select-color">
+        <li id="choice-wit">Wit</li>
+        <li id="choice-groen">Groen</li>
+        <li id="choice-geel">Geel</li>
+        <li id="choice-blauw">Blauw</li>
+        <li id="choice-rood">Rood</li>
+        <li id="choice-reset">Reset</li>
+    </ul>
+
+
+<!-- Menu - bonusopdracht -->
+    <!-- <div class="btn-toggle-bonus" onmouseover="toggleMenuBonus()"></div>
+
+    <div class="menu-select-color-bonus">
+        <div class="wit">
+            <input type="radio" class="radio-button" id="radio-wit" name="radiomenu" onclick="toggleColorBonus(id)">Wit
+        </div>
+        <div class="groen">
+            <input type="radio" class="radio-button" id="radio-groen" name="radiomenu" onclick="toggleColorBonus(id)">Groen
+        </div>
+        <div class="geel">
+            <input type="radio" class="radio-button" id="radio-geel" name="radiomenu" onclick="toggleColorBonus(id)">Geel
+        </div>
+        <div class="blauw">
+            <input type="radio" class="radio-button" id="radio-blauw" name="radiomenu" onclick="toggleColorBonus(id)">Blauw
+        </div>
+        <div class="rood">
+            <input type="radio" class="radio-button" id="radio-rood" name="radiomenu" onclick="toggleColorBonus(id)">Rood
+        </div>
+        <div class="reset">
+            <input type="radio" class="radio-button" id="radio-reset" name="radiomenu" onclick="toggleColorBonus(id)">Reset
+        </div>
+    </div> -->
+
+<!-- Tekst kleurnaam -->
+    <aside class="show-colorname-bonus">
+        <div id="colorname">Kleur</div>
+    </aside>
+
+</body>
+</html>
